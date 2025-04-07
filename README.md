@@ -1,3 +1,3 @@
 # BinD: Breath-in-Dialogue
 
-Science Tokyo Multimodal Dialogue Corpus with Respiration Signals
+The Science Tokyo Multimodal Dialogue Corpus with Respiration Signals
