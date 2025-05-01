@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<timeseries date="2025-04-10T23:09:45+09:00" version="1.0">
+  <tracksource sample-type="Discontinuous Rate" source-url="FILL_THE_FULL_FILE_PATH/32-7-1.csv" time-column="0">
+    <property key="provider" value="mpi.eudico.client.annotator.timeseries.csv.CSVServiceProvider"/>
+    <track derivative="0" name="1-RSPT">
+      <property key="detect-range" value="true"/>
+      <sample-position>
+        <pos col="1" row="0"/>
+      </sample-position>
+      <description>RSPT of Person 1</description>
+      <units/>
+      <range max="3910.51" min="-2300.08"/>
+      <color>200,50,50</color>
+    </track>
+  </tracksource>
+  <tracksource sample-type="Discontinuous Rate" source-url="FILL_THE_FULL_FILE_PATH/32-7-2.csv" time-column="0">
+    <property key="provider" value="mpi.eudico.client.annotator.timeseries.csv.CSVServiceProvider"/>
+    <track derivative="0" name="2-RSPT">
+      <property key="detect-range" value="true"/>
+      <sample-position>
+        <pos col="1" row="0"/>
+      </sample-position>
+      <description>RSPT of Person 2</description>
+      <units/>
+      <range max="3711.53" min="-2208.66"/>
+      <color>200,50,50</color>
+    </track>
+  </tracksource>
+</timeseries>

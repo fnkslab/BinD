@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<timeseries date="2025-04-10T22:42:02+09:00" version="1.0">
+  <tracksource sample-type="Discontinuous Rate" source-url="FILL_THE_FULL_FILE_PATH/011/01-3-1.csv" time-column="0">
+    <property key="provider" value="mpi.eudico.client.annotator.timeseries.csv.CSVServiceProvider"/>
+    <track derivative="0" name="1-RSPT">
+      <property key="detect-range" value="true"/>
+      <sample-position>
+        <pos col="1" row="0"/>
+      </sample-position>
+      <description>RSPT of Person 1</description>
+      <units/>
+      <range max="3900.10" min="-2279.92"/>
+      <color>200,50,50</color>
+    </track>
+    <track derivative="0" name="1-RSPA">
+      <property key="detect-range" value="true"/>
+      <sample-position>
+        <pos col="2" row="0"/>
+      </sample-position>
+      <description>RSPA of Person 1</description>
+      <units/>
+      <range max="418.21" min="-267.11"/>
+      <color>200,25,25</color>
+    </track>
+    <track derivative="0" name="1-PULS">
+      <property key="detect-range" value="true"/>
+      <sample-position>
+        <pos col="3" row="0"/>
+      </sample-position>
+      <description>PULS of Person 1</description>
+      <units/>
+      <range max="137.00" min="79.00"/>
+      <color>100,200,200</color>
+    </track>
+    <track derivative="0" name="1-PR">
+      <property key="detect-range" value="true"/>
+      <sample-position>
+        <pos col="4" row="0"/>
+      </sample-position>
+      <description>PR of Person 1</description>
+      <units/>
+      <range max="120" min="60"/>
+      <color>100,150,150</color>
+    </track>
+  </tracksource>
+  <tracksource sample-type="Discontinuous Rate" source-url="FILL_THE_FULL_FILE_PATH/012/01-3-2.csv" time-column="0">
+    <property key="provider" value="mpi.eudico.client.annotator.timeseries.csv.CSVServiceProvider"/>
+    <track derivative="0" name="2-RSPT">
+      <property key="detect-range" value="true"/>
+      <sample-position>
+        <pos col="1" row="0"/>
+      </sample-position>
+      <description>RSPT of Person 2</description>
+      <units/>
+      <range max="3950.00" min="-2396.50"/>
+      <color>200,50,50</color>
+    </track>
+    <track derivative="0" name="2-RSPA">
+      <property key="detect-range" value="true"/>
+      <sample-position>
+        <pos col="2" row="0"/>
+      </sample-position>
+      <description>RSPA of Person 2</description>
+      <units/>
+      <range max="3900.70" min="-2292.14"/>
+      <color>200,25,25</color>
+    </track>
+    <track derivative="0" name="2-PULS">
+      <property key="detect-range" value="true"/>
+      <sample-position>
+        <pos col="3" row="0"/>
+      </sample-position>
+      <description>PULS of Person 2</description>
+      <units/>
+      <range max="255.00" min="0.00"/>
+      <color>100,200,200</color>
+    </track>
+    <track derivative="0" name="2-PR">
+      <property key="detect-range" value="true"/>
+      <sample-position>
+        <pos col="4" row="0"/>
+      </sample-position>
+      <description>PR of Person 2</description>
+      <units/>
+      <range max="120" min="60"/>
+      <color>100,150,150</color>
+    </track>
+  </tracksource>
+</timeseries>
