@@ -15,7 +15,7 @@ IDRからは本コーパスのうち個人情報を含む動画・音声ファ�
 
 【実験参加者】
 
-* 実験受託会社が一般から募集した72名
+* 実験受託会社が一般から募集した72名（謝礼あり）
 * 内訳
   * 男性32名，女性40名
   * 20代17名，30代19名，40代18名，50代13名，60代5名
@@ -129,3 +129,6 @@ NN --+-- Sx --+-- NN-x.mp4		組NNのセッションxにおける動画
 
 T. Obi, K. Funakoshi. "Video-based Respiratory Waveform Estimation in Dialogue: A Novel Task and Dataset for Human-Machine Interaction." In Proceedings of the 25th International Conference on Multimodal Interaction (ICMI '23):, pp.649-660, 2023. https://doi.org/10.1145/3577190.3614154
 
+【謝辞】
+
+本コーパスの構築は，科研費新学術領域研究「人間機械共生社会を目指した対話知能システム学」で採択された公募研究課題22H04859の支援を受けました．
