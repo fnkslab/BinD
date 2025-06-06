@@ -10,5 +10,5 @@
 TSCONF=$1
 TGTDIR=`dirname $TSCONF`
 ABSPATH=`(cd $TGTDIR && pwd)`
-sed -I '' "s|FILL_THE_FULL_FILE_PATH|file://$ABSPATH|g" $TSCONF
+sed -i '' "s|FILL_THE_FULL_FILE_PATH|file://$ABSPATH|g" $TSCONF
 
